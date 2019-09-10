@@ -7,6 +7,11 @@
     <groupId>Multiple Environment</groupId>
     <artifactId>Multiple Environment</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <url>https://github.com/guneetgarg/Custom-Multi-Environment</url>
+    <name>Multiple Environment</name>
+    <description>
+        This will be used to read config file based on xml and properties
+    </description>
     <build>
         <plugins>
             <plugin>
@@ -59,5 +64,22 @@
 
     </dependencies>
 
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Guneet Garg</name>
+            <email>guneetgarg@gmail.com</email>
+        </developer>
+    </developers>
 
+    <scm>
+        <connection>scm:git:git://github.com/guneetgarg/Custom-Multi-Environment.git</connection>
+        <developerConnection>scm:git:ssh://github.com:guneetgarg/Custom-Multi-Environment.git</developerConnection>
+        <url>http://github.com/guneetgarg/Custom-Multi-Environment</url>
+    </scm>
 </project>
