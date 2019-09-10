@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Reporto">
+    <parameter name="environment" value="QA"/>
+
+    <!--<listeners>
+        <listener class-name="com.reporto.ReportoListener"></listener>
+    </listeners>-->
+    <test name="testTest">
+        <classes>
+            <class name="functional.Demo1"/>
+        </classes>
+    </test>
+
+    <!--  <test name="testAAAATest">
+          <classes>
+              <class name="functional.FunctionalSample"/>
+              <class name="com.test.sample.FunctionalSample1"/>
+          </classes>
+      </test>-->
+</suite> <!-- Suite -->
+
+        <!--https://github.com/BlackrockDigital/startbootstrap-sb-admin-2-->
